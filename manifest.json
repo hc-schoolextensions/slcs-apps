@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SLCS Apps",
+  "description": "Apps for St. Laurence Catholic School.",
+  "author": "Hayden C",
+  "version": "0.1",
+  "icons": {
+    "128": "slcs.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyw1E3z8MdqU9SanBOKdkbbXLfxy6bNLkJ9VTo2JOwm0eB4v+qusMs9uiqxPsHW56i5cEyxfkn1fRb3otJ2ZetZFerJuLz3fGscQ58J63fMmEf5E/gIvPRUH8V9zesK6eFLOb29pnizRtyE5S316WjbdTOAvQio7xt+ikFB35wN9xO8U40rL4YOODB5nV62BHl5lZ6Jrbl/RpoaIonMnuCA0RH/wyWg1Tmii2NWwuIEcGjqD19YJzWGFi+Ivez9HI+yB2549/aVh4us5pcvQDTFQREdblD3bBjd5LxHP82kR9liRkiJYMnSOHWjfU2XXMQnM3t5+GGX89jcDEJqfJQQIDAQAB"
+}
