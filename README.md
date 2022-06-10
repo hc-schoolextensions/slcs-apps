@@ -1,1 +1,1 @@
-# slcs-apps
+# SLCS Apps extension
