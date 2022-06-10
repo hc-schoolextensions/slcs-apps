@@ -12,5 +12,6 @@ This extension opens a box with a search bar when you click the extension icon. 
 
 ##### Data for the extension is fetched from [this file](https://github.com/hc-schoolextensions/slcs-apps-data/blob/main/data.txt).
 
+<br>
 
 &copy; Copyright 2022 [@hc-schoolextensions](https://github.dev/hc-schoolextensions/ '@hc-schoolextensions')
