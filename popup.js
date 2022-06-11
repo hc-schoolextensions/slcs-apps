@@ -30,8 +30,8 @@ function additems(data) {
     items = data.split(";;");
     items.forEach(item => {
         itemdata = item.split("::");
-        if (itemdata[3] != undefined) {
-            myul.innerHTML += `<li class="grid-item"><a><div class="midiv" data-url="${itemdata[3]}"><span class="material-icons material-icons--rounded" style="color: ${itemdata[1]}; background-color: ${itemdata[2]};">${itemdata[0]}</span>${itemdata[4]}</div></a></li>`;
+        if (itemdata[1] != undefined) {
+            myul.innerHTML += `<li class="grid-item"><a><div class="midiv" data-url="${itemdata[1]}"><span class="material-icons material-icons--rounded">${itemdata[0]}</span>${itemdata[2]}</div></a></li>`;
         }
     });
     addlinks();

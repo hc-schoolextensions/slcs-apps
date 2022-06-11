@@ -50,6 +50,10 @@ body {
     font-family: "Material Icons Round";
 }
 
+a div span {
+    color: black;
+}
+
 #myUL li a {
     border: 1px solid #ddd;
     margin-top: -1px;
@@ -108,7 +112,7 @@ body {
     }
 
     a div span {
-        color: white;
+        color: rgb(206, 206, 206);
     }
 
     #searchbox {
