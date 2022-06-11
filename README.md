@@ -13,7 +13,7 @@ This extension opens a box with a search bar when you click the extension icon. 
 
 ## How to add or modify apps in the extension
 
-Click [here](https://github.com/hc-schoolextensions/slcs-apps-data/blob/main/README.md) to learn how to contribute to the SLCS apps.
+Click [here](https://github.com/hc-schoolextensions/slcs-apps-data/blob/main/README.md) to learn how to change the apps in the extension.
 
 <br>
 
