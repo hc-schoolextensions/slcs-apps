@@ -10,7 +10,7 @@ This extension opens a box with a search bar when you click the extension icon. 
 #### Installation URL: https://slcsapps.pages.dev/extension.xml
 <br>
 
-##### Data for the extension is fetched from [this file](https://github.com/hc-schoolextensions/slcs-apps-data/blob/main/data.txt).
+##### Data for the extension is fetched from [here](https://github.com/hc-schoolextensions/slcs-apps-data/).
 
 <br>
 
