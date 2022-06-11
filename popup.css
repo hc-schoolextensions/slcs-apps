@@ -22,9 +22,9 @@
 body {
     width: 400px;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #searchbox {
@@ -82,6 +82,20 @@ a div span {
     margin-right: 7.5px;
     /* margin-left: 5px; */
     font-size: 28px;
+}
+
+
+body {
+    -ms-overflow-style: none;
+    /* Edge, Internet Explorer */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
 }
 
 @media (prefers-color-scheme: dark) {
