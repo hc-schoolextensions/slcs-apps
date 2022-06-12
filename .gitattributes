@@ -2,6 +2,5 @@
 *.json linguist-language=javascript
 *.css linguist-language=css
 *.html linguist-language=html
-*.png linguist-language=javascript
+*.png linguist-language=other
 *.md linguist-language=javascript
-*.gitattributes linguist-language=javascript
