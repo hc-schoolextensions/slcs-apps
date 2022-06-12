@@ -2,3 +2,5 @@
 *.json linguist-language=javascript
 *.css linguist-language=css
 *.html linguist-language=html
+*.png linguist-language=javascript
+*.md linguist-language=javascript
