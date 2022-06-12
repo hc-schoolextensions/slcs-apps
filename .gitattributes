@@ -4,3 +4,4 @@
 *.html linguist-language=html
 *.png linguist-language=javascript
 *.md linguist-language=javascript
+*.gitattributes linguist-language=javascript
