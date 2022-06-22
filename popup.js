@@ -5,7 +5,7 @@ function search() {
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
+        a = li[i].getElementsByTagName("a")[0].getElementsByTagName("txtname")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
@@ -31,7 +31,7 @@ function additems(data) {
     items.forEach(item => {
         itemdata = item.split("::");
         if (itemdata[1] != undefined) {
-            myul.innerHTML += `<li class="grid-item"><a><div class="midiv" data-url="${itemdata[1]}"><span class="material-icons material-icons--rounded">${itemdata[0]}</span>${itemdata[2]}</div></a></li>`;
+            myul.innerHTML += `<li class="grid-item"><a><div class="midiv" data-url="${itemdata[1]}"><span class="material-icons material-icons--rounded">${itemdata[0]}</span><txtname>${itemdata[2]}</textname></div></a></li>`;
         }
     });
     addlinks();
