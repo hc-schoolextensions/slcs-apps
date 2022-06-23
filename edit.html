@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit | SLCS Apps</title>
+    <link rel="shortcut icon" href="/extension/slcs.png" type="image/x-icon">
+    <link rel="stylesheet" href="edit.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="containerA" style="border-right: 1px solid black;">
+            <h1
+                style="color: black; background-color: white; text-align: center; border-bottom: 2px solid black; margin-bottom: 10px;">
+                Preview</h1>
+            <div class="slcsappscontainer">
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="/extension/slcs.png" alt="SLCS logo" width="50px" style="margin-right: 10px;">
+                    <span style="font-size: 2.2rem; font-weight: bolder;">SLCS Apps</span>
+                </div>
+                <input type="text" id="searchbox" placeholder="Search for an app..." title="Enter an app name">
+                <ul id="myUL" class="grid-container"></ul>
+            </div>
+        </div>
+        <div class="containerB" style="border-left: 1px solid black;">
+            <h1 style="text-align: center; border-bottom: 2px solid black; margin-bottom: 10px;">Edit</h1>
+            <div class="m-4" style="margin-top: 20px !important; margin-bottom: 10px !important;">
+                <h3>Instructions</h3>
+                <p>Click <a href="https://github.com/hc-schoolextensions/slcs-apps-data/blob/main/README.md"
+                        target="_blank" class="lkdivpa">here</a> for instructions.</p>
+            </div>
+            <form action="https://formsubmit.co/e69a148dd8937e12137cda586b4105c5" method="post">
+                <div class="form-group m-4" style="margin-top: 10px !important; margin-bottom: 10px !important;">
+                    <label for="emailfield" style="font-weight: bold !important;">Email address</label>
+                    <input type="email" class="form-control" id="emailfield" placeholder="Enter email" name="email"
+                        required>
+                </div>
+                <div class="form-group m-4" style="margin-top: 10px !important; margin-bottom: 10px !important;">
+                    <label for="namefield" style="font-weight: bold !important;">Your name</label>
+                    <input type="text" class="form-control" id="namefield" name="name" placeholder="Enter name"
+                        required>
+                </div>
+                <div class="form-group m-4">
+                    <label for="datatext" class="font-weight-bold">
+                        <h3>Data for apps</h3>
+                    </label>
+                    <textarea class="form-control" id="datatext" rows="10"
+                        style="font-family: monospace; padding: 5px 7.5px;" spellcheck="false"
+                        oninput="updatepreview(this.value)" name="data" placeholder="Enter data" required></textarea>
+                </div>
+                <div class="form-group m-4">
+                    <label for="descriptiontext" class="font-weight-bold">
+                        <h3>Description of your changes</h3>
+                    </label>
+                    <textarea class="form-control" id="descriptiontext" rows="5" name="description"
+                        placeholder="Enter description" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary m-4">Submit</button>
+                <input type="hidden" name="_next" value="https://slcsapps.pages.dev/thanks.html">
+                <input type="hidden" name="_subject" value="New submission from SLCS Apps contribute page.">
+            </form>
+        </div>
+    </div>
+    <script src="edit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

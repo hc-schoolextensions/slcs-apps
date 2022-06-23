@@ -1,0 +1,190 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a.lkdivpa {
+    text-decoration: none !important;
+}
+
+a.lkdivpa:hover {
+    text-decoration: underline !important;
+}
+
+div.wrapper {
+    display: flex;
+}
+
+div.wrapper .containerA {
+    height: 100%;
+    width: 450px;
+    position: fixed;
+}
+
+div.wrapper .containerB {
+    height: 100%;
+    width: calc(100% - 450px);
+    left: 450px;
+    position: fixed;
+}
+
+.slcsappscontainer {
+    padding: 10px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 75%;
+}
+
+@import "https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round";
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    /* text-align: center; */
+}
+
+.grid-item a {
+    min-height: 56px;
+}
+
+div.slcsappscontainer * {
+    box-sizing: border-box;
+}
+
+div.slcsappscontainer {
+    width: 420px !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#searchbox {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg>');
+    background-position: 10px 12px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 35px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.material-icons--rounded {
+    font-family: "Material Icons Round";
+}
+
+a div span {
+    color: black;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    margin-left: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: block
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+.midiv {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 44px;
+    cursor: pointer;
+}
+
+.midiv span {
+    margin-right: 7.5px;
+    /* margin-left: 5px; */
+    font-size: 28px;
+}
+
+.containerB {
+    overflow-y: scroll;
+}
+
+div.slcsappscontainer,
+.containerA {
+    -ms-overflow-style: none;
+    /* Edge, Internet Explorer */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-y: scroll;
+}
+
+div.slcsappscontainer::-webkit-scrollbar,
+.containerA::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+@media (prefers-color-scheme: dark) {
+    div.containerA {
+        background-color: rgb(41, 41, 41);
+    }
+
+    span {
+        color: white;
+    }
+
+    .grid-item {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    img {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    #myUL li a {
+        border: 1px solid rgb(2, 2, 2);
+        color: white;
+        background-color: #313131;
+    }
+
+    #myUL li a:hover:not(.header) {
+        background-color: rgb(27, 27, 27);
+    }
+
+    a div span {
+        color: rgb(206, 206, 206);
+    }
+
+    #searchbox {
+        background-color: #595959;
+        color: white;
+    }
+
+    #searchbox::placeholder {
+        color: #cccccc;
+    }
+}
+
+.midiv {
+    margin: -1px;
+}
