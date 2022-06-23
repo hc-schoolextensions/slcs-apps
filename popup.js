@@ -19,7 +19,7 @@ document.getElementById('searchbox').addEventListener('input', function () {
     search();
 });
 
-var myRequest = new Request('https://raw.githubusercontent.com/hc-schoolextensions/slcs-apps-data/main/data.txt');
+var myRequest = new Request('https://raw.githubusercontent.com/hc-schoolextensions/slcs-apps-extension/data/data.txt');
 var items;
 var itemdata;
 var id2;
