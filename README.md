@@ -1,5 +1,3 @@
-# slcs-apps-data
-
 ## How to add or modify apps
 
 1. Go to https://slcsapps.pages.dev/edit to start.
