@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLCS Apps</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="/extension/popup.css">
+    <link rel="shortcut icon" href="/extension/slcs.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            font-size: 75%;
+        }
+
+        .container {
+            width: 400px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        
+        @media screen and (max-width: 400px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <img src="/extension/slcs.png" alt="SLCS logo" width="50px" style="margin-right: 10px;">
+            <span style="font-size: 2.2rem; font-weight: bolder;">SLCS Apps</span>
+        </div>
+        <input type="text" id="searchbox" placeholder="Search for an app..." title="Enter an app name" autofocus>
+        <ul id="myUL" class="grid-container"></ul>
+    </div>
+    <script src="/extension/popup.js"></script>
+</body>
+
+</html>
