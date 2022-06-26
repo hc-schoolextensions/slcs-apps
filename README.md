@@ -5,7 +5,8 @@
 3. Add or edit a line. There is one line per app. The apps are in the following format. Replace capital letters with what they describe, but do not use capital letters in the data except in app names. Spaces are allowed: ```ICON_NAME::APP_URL::APP_NAME;;```
 
 Example: ```search::https://www.google.com/::Google;;```
-4. If the app should open in a new window, add ```::popup``` before ```;;```.
+
+4. If the app should open in a new window, add ```::popup``` before ```;;``` .
 5. Make sure the data has no extra empty lines.
 6. Fill in the description box at the bottom with a short description of what you modified.
 7. Press "Sumbit".
