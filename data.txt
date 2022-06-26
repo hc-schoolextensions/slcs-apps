@@ -36,3 +36,4 @@ picture_as_pdf::https://pdfcandy.com/::PDF Candy;;
 draw::https://sketchpad.app/en/::Sketchpad;;
 mic::https://online-voice-recorder.com/::Voice Recorder;;
 videocam::https://webcamera.io/::Video Recorder;;
+grading::https://test.mapnwea.org/::NWEA Testing::popup;;
